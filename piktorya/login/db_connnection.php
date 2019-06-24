@@ -2,9 +2,9 @@
 
 function OpenCon(){
 	$dbhost = 'localhost';
-	$dbuser = 'aneeshn2_aneesh';
+	$dbuser = 'root';
 	$dbpswd = 'zaq12wsx';
-	$db = 'aneeshn2_piktorya';
+	$db = 'piktorya';
 
 	$conn = new mysqli($dbhost, $dbuser, $dbpswd, $db);
 
