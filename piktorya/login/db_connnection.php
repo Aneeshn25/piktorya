@@ -1,7 +1,7 @@
 <?php 
 
 function OpenCon(){
-	$dbhost = '127.0.0.1';
+	$dbhost = 'db';
 	$dbuser = 'root';
 	$dbpswd = 'zaq12wsx';
 	$db = 'piktorya';
