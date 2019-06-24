@@ -46,7 +46,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: pictorya
+      MYSQL_DATABASE: piktorya
       MYSQL_ROOT_PASSWORD: zaq12wsx
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
