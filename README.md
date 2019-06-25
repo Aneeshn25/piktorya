@@ -1,7 +1,7 @@
 # piktorya
 social-networking app
 
-<b>microservices application</b>
+# microservices application
 
 step 1. get a ubuntu ec2 instance. Open security groups port 80
 
