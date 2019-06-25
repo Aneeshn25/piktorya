@@ -9,9 +9,9 @@ step 2. ssh to the instance
 
 step 3. sudo apt update
 
-step 4. install <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">docker</a>
+step 4. install <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">docker</a>
 
-step 5. install <a href="https://docs.docker.com/compose/install/">docker compose</a>
+step 5. install <a href="https://docs.docker.com/compose/install/" target="_blank">docker compose</a>
 
 step 6. run <code>git clone https://github.com/Aneeshn25/piktorya</code>
         
