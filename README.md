@@ -9,7 +9,7 @@ step 1. get a ubuntu ec2 instance. Open security groups port 80
 
 step 2. ssh to the instance
 
-step 3. sudo apt update
+step 3. run <code>sudo apt update</code>
 
 step 4. install <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">docker</a>
 
