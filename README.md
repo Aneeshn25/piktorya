@@ -17,7 +17,7 @@ step 6. run <code>git clone https://github.com/Aneeshn25/piktorya</code>
         
 step 7. change the directory to piktorya <code>cd piktorya</code>
 
-step 8. run <code>sudo docker-compose built</code>
+step 8. run <code>sudo docker-compose build</code>
 
 step 9. run <code>sudo docker-compose up -d</code> run it in the background
 
