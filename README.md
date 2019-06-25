@@ -23,4 +23,4 @@ step 9. run <code>sudo docker-compose up -d</code> run it in the background
 
 step 10. Access piktorya app using <code>http://public_ip</code> of the instance using the http client(any web browser)
 
-should work. if not try to make it work. 
+should work. if not try to make it work.
