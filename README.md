@@ -23,6 +23,8 @@ step 9. run <code>sudo docker-compose up -d</code> run it in the background
 
 step 10. Access piktorya app using <code>http://public_ip</code> of the instance in the http client(any web browser)
 
-should work. if not try to make it work.
+should work. if not, please try to make it work ;)
 
-anyone is welcome to make a pull request
+Anyone is welcome to make a pull request
+
+Ref Docs: https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose
