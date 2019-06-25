@@ -3,7 +3,7 @@ social-networking app
 
 # microservices application
 
-![Microservices Diagram](https://github.com/Aneeshn25/piktorya/tree/master/images/diagram.png)
+![Microservices Diagram](https://raw.githubusercontent.com/Aneeshn25/piktorya/master/images/diagram.png)
 
 step 1. get a ubuntu ec2 instance. Open security groups port 80
 
