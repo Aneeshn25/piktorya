@@ -1,3 +1,8 @@
+<?php
+    ob_start();
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,8 +22,6 @@
 </html>
 
 <?php
-	ob_start();
-	session_start();
 	if (!isset($_SESSION['userID'])) {
 		header("location : login/login.php");
 	}
