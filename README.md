@@ -27,6 +27,6 @@ step 10. Access piktorya app using <code>http://public_ip</code> of the instance
 
 should work. if not, please try to make it work ;)
 
-Anyone is welcome to make a pull request
+# Anyone is welcome to make a pull request
 
 Ref Docs: https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and-mysql-with-docker-compose
