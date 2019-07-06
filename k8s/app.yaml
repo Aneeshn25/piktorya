@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: app
+  name: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: app
+  template:
+    metadata:
+      labels:
+        run: app
+    spec:
+      containers:
+      - image: aneeshn25/piktorya:app
+        name: app
+        ports:
+        - containerPort: 9000
+        volumeMounts:
+        - name: localini-volume
+          mountPath: /usr/local/etc/php/conf.d/
+      volumes:
+      - name: localini-volume
+        configMap:
+          name: localini
