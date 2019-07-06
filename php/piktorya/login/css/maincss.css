@@ -1,0 +1,192 @@
+body{
+	background-color: #fcfcfc;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#brand{
+	font-family: AaronBold;
+	color: rgba(67,67,67,1.00);
+	text-align: center;
+	font-size: 2em;
+}
+#header{
+	background-color: rgba(220,220,220,1.00);
+	line-height: 50px;
+}
+#section{
+}
+#footer{
+	background-color: rgba(220,220,220,1.00);
+	line-height: 50px;
+}
+/*Login Form*/
+.form{
+	background: rgba(220,220,220,1.00);
+	border-radius: 1em;
+	max-width: 50%;
+	margin: 1em auto;
+}
+.table{
+	padding: 1em;
+	margin: 0 auto;
+	font-size: 1em;
+}
+.table input{
+	font-size: 1em;
+	border-radius: .5em;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: .50em;
+	box-sizing: border-box;
+}
+.table button{
+	margin: 0.25em auto;
+	border-radius: 0.5em;
+	outline: 0;
+	background-color: cadetblue;
+	width: 50%;
+	border: 0;
+	padding: 0.5em;
+	color: #FFFFFF;
+	font-size: 1em;
+	cursor: pointer;
+}
+/*Home Page CSS*/
+.headMenu li{
+	display: block;
+	float: right;
+	padding : 1em;
+}
+.Piktorya{
+	text-align: center; 
+	cursor: pointer;
+	margin: 0;
+}
+
+#image {
+	position: static;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.display{
+	background-color: #ffffff;
+	border-radius: 10px;
+	border: .5px solid #e2e2e2;
+	width: 50%;
+	min-height: 400px;
+	margin-left: 25%;
+}
+
+/*dropdowm menu in home page*/
+.ts_align{
+	font-weight: bold;
+	font-size: 1em;
+	margin: 1em 1em;
+}
+.username{
+	font-size: 1.25em;
+}
+.dots {
+	position:relative;
+	cursor: pointer;
+	margin: 0em;
+	font-size: 10px;
+	line-height: 70%;
+}
+.dottedMenu {
+	display: none;
+	position: absolute;
+	text-align: left;
+	border-radius: 0.5em;
+	background-color: #efefef;
+	width: auto;
+	height: auto;
+}
+
+.dottedMenu li {
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+.dottedMenu li:hover {
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+.menuShow {
+	display: block;
+}
+.dottedMenu li{
+	list-style-type: none;
+}
+.opinion{
+	margin: 0;
+	padding-left: 5%;
+}
+.opinion li {				
+	list-style-type: none;
+	display: inline-block;
+}
+.like {
+	display: inline-block;
+	cursor: pointer;
+}
+.liked{
+	display: inline-block;
+	color: #1e74ff;
+	cursor: pointer;
+}
+.unlike{
+	display: inline-block;
+	cursor: pointer;
+}
+.unliked{
+	display: inline-block;
+	color: #1e74ff;
+	cursor: pointer;
+}
+
+/* comment css */
+.comment {
+	padding-left: 3% ;
+	line-height: 0%;
+}
+.textarea{
+	resize: none;
+	max-height: 50px;
+	margin-top: 5px;
+	border: none;
+	outline: none;
+	max-width: 88%;
+	min-width: 88%;
+	overflow: auto;
+}
+.comments li{
+	padding: 0;
+	list-style-type:none;
+	line-height: 2em;
+	list-style-position: outside;
+	text-indent: -2.75em;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+}
+.commented{
+	margin: 0;
+	padding-right: 10%;
+}
+a,span{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration : none;
+}
+.cmtborder{
+	margin-top: 1em;
+	border-top: 2px solid #d8d8d8;
+	border-bottom: 2px solid #d8d8d8;
+}
+.commented-user{
+	font-weight: bold;
+	margin-right: 0.30em;
+}
