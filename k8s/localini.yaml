@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  local.ini: |
+    #this is from configmap volume
+    upload_max_filesize=40M
+    post_max_size=40M
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2019-07-02T19:23:41Z"
+  name: localini
+  namespace: default
+  resourceVersion: "107078"
+  selfLink: /api/v1/namespaces/default/configmaps/localini
+  uid: e643466d-9cfe-11e9-85c7-9e75f4e39c2d

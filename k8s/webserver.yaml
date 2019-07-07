@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: webserver
+  name: webserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: webserver
+  template:
+    metadata:
+      labels:
+        run: webserver
+    spec:
+      containers:
+      - image: aneeshn25/piktorya:webserver
+        name: webserver
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: appconf-volume
+          mountPath: /etc/nginx/conf.d/
+      volumes:
+      - name: appconf-volume
+        configMap:
+          name: appconf
+

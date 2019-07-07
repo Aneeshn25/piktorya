@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: db
+  name: db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: db
+  template:
+    metadata:
+      labels:
+        run: db
+    spec:
+      containers:
+      - image: aneeshn25/piktorya:db
+        name: db
+        ports:
+        - containerPort: 3306
+        volumeMounts:
+        - name: mycnf-volume
+          mountPath: /etc/mysql/
+      volumes:
+      - name: mycnf-volume
+        configMap:
+          name: mycnf

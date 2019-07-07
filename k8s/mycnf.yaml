@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  my.cnf: |
+    #this is from configmap volume
+    [mysqld]
+    general_log = 1
+    general_log_file = /var/lib/mysql/general.log
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2019-07-02T19:22:27Z"
+  name: mycnf
+  namespace: default
+  resourceVersion: "106966"
+  selfLink: /api/v1/namespaces/default/configmaps/mycnf
+  uid: bab1e9b1-9cfe-11e9-9201-e2b1398def36
