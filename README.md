@@ -5,6 +5,8 @@ social-networking app
 
 ![Microservices Diagram](https://raw.githubusercontent.com/Aneeshn25/piktorya/master/images/diagram.png)
 
+![Microservices-1 Diagram](images/diagram.png)
+
 step 1. get a ubuntu ec2 instance. Open security groups port 80
 
 step 2. ssh to the instance
